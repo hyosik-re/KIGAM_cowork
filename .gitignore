@@ -1,4 +1,4 @@
-# Local documents are excluded until a private document repository is configured.
+# Documents are excluded by default; only explicitly approved test files are allowed.
 local-only/
 *.hwp
 *.hwpx
@@ -9,3 +9,6 @@ local-only/
 ~$*
 Thumbs.db
 .DS_Store
+
+# User approved this specific file for public upload.
+!/templates/데이터관리계획(DMP)_test_data.hwp
