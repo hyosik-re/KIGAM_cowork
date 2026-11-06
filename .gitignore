@@ -1,0 +1,11 @@
+# Local documents are excluded until a private document repository is configured.
+local-only/
+*.hwp
+*.hwpx
+*.pdf
+*.docx
+*.bak
+*.asv
+~$*
+Thumbs.db
+.DS_Store
